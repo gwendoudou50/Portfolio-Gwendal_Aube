@@ -1,0 +1,151 @@
+body, header {
+    background-color: black;
+    color: white;
+}
+
+.entete, footer {
+    background-color: #151516;
+}
+
+
+h2 {
+    color: white;
+    opacity: 95%;
+    /*font-size: 36px;*/
+    font-size: 2.25em;
+    line-height: 110%;
+}
+
+.entete h1, footer h2 {
+    color: #ededed;
+}
+
+main > article section a {
+    color: white;
+    background-color: #0071E3;
+    border-radius: 20px;
+
+}
+
+main > article section a:hover {
+    color: white;
+    background-color: #0071E3;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.entete {
+    border-bottom: 1px solid #3d3d3d;
+}
+
+footer a, footer h3 {
+    color: #dcdcdc;
+}
+
+p {
+    opacity: 60%;
+    /*font-size: 36px;*/
+    font-size: 2.25em;
+    line-height: 110%;
+}
+
+img {
+    fill: white;
+}
+
+main ul {
+    /*font-size: 48px;*/
+    font-size: 3em;
+    font-weight: bolder;
+    line-height: 80%;
+    margin-bottom: 8em;
+}
+
+main section article {
+    border-radius: 50px;
+}
+
+.missions {
+    background: linear-gradient(135deg, #efcd24, #e85006);
+}
+
+.acquis {
+    background: linear-gradient(135deg, #4F73C3, #3C46A2);
+}
+.outils {
+    background: linear-gradient(160deg, #b2b2b2, #ABABAB 20%, 55%, #262627);
+}
+
+.hapticTronome {
+    width: 30%;
+}
+
+.yams {
+    font-size: 8em;
+    font-weight: bolder;
+    line-height: 110%;
+    background: linear-gradient(100deg, #D676EB, 40%, #8227FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.hoursChecking {
+    font-size: 8em;
+    font-weight: bolder;
+    line-height: 110%;
+    background: linear-gradient(2deg, #ddd9f1, 55%, #113fee);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+@media screen and (min-width: 992px) {
+    .missions, .acquis {
+        /*min-height: 300px;*/
+        min-height: 30em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    h2 {
+        /*font-size: 30px;*/
+        font-size: 1.875em;
+        /*line-height: 34px;*/
+        line-height: 2.125em;
+    }
+
+    p {
+        /*font-size: 26px;*/
+        font-size: 1.625em;
+    }
+
+    main ul {
+        /*font-size: 34px;*/
+        font-size: 2.125em;
+        font-weight: bolder;
+        line-height: 80%;
+        margin-bottom: 0;
+    }
+
+    .missions, .acquis, .outils {
+        /*min-height: 300px;*/
+        /*min-height: 22.75em;*/
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        /*font-size: 28px;*/
+        font-size: 1.75em;
+    }
+
+    .missions, .acquis, .outils {
+        /*min-height: 300px;*/
+        /*min-height: 18.75em;*/
+    }
+
+    .hoursChecking {
+        font-size: 3.5em;
+        line-height: 80%;
+    }
+}

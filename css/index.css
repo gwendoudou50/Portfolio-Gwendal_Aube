@@ -1,0 +1,52 @@
+article > section {
+    width: 35em;
+}
+
+p {
+    margin: 0;
+}
+
+main img {
+    /*width: 284px;*/
+    max-height: 100%;
+}
+
+.bg-competences {
+    background-image: url("../images/accueil/competences.svg");
+}
+
+.bg-xp {
+    background-image: url("../images/accueil/experiencesPro.jpg");
+}
+
+.text-form {
+    color: #d6d6d6;
+    /*size: 32px;*/
+    font-size: 2em;
+    /*line-height: 44px;*/
+    line-height: 2.75em;
+    letter-spacing: 1px;
+}
+
+input {
+    padding-left: 30em;
+}
+
+.bouton {
+    margin-left: 5em;
+    margin-right: 5em;
+    color: white;
+}
+
+.bouton:hover {
+    color: white;
+}
+
+.appeler {
+    background-color: #34D15C;
+}
+
+.envoyer {
+    background-color: #0071E3;
+    color: white;
+}
